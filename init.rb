@@ -1,3 +1,5 @@
+require_dependency 'inline_note_attachment_preview_listener'
+
 Redmine::Plugin.register :redmine_inline_note_attachment_preview_plugin do
   name 'Redmine Inline Note Attachment Preview Plugin plugin'
   author 'Author name'
