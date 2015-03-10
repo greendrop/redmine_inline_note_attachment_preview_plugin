@@ -1,3 +1,0 @@
-= redmine_inline_note_attachment_preview_plugin
-
-Description goes here
