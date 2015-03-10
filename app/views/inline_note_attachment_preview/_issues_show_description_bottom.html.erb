@@ -7,7 +7,7 @@
         <div>
           <%= link_to image_tag(url_for({:controller => 'attachments', :action => 'thumbnail', :id => attachment})), {:controller => 'attachments', :action => 'show', :id => attachment, :filename => attachment.filename }, :rel => 'attachments', :title => "#{attachment.filename}#{ ('-' + attachment.description) unless attachment.description.blank? }" %>
         </div>
-      <% elsif !!(attachment.filename =~ /\.(mp4|flv)$/i) %>
+      <% elsif !!(attachment.filename =~ /\.(mp4|webm|)$/i) %>
         <div>
           <%= video_tag url_for({:controller => 'attachments', :action => 'show', :id => attachment}), :controls => true, :width => Setting.thumbnails_size.to_i, :height => (Setting.thumbnails_size.to_i / 16 * 9) %>
         </div>
