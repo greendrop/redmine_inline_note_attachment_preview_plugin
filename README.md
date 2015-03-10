@@ -8,10 +8,10 @@ Installation and Setup
 ----------------------
 
 1. プラグイン  
-```
-$ cd #{RAILS_ROOT}/plugins  
-$ git clone https://github.com/greendrop/redmine_inline_note_attachment_preview_plugin.git  
-```
+  ```
+  $ cd #{RAILS_ROOT}/plugins  
+  $ git clone https://github.com/greendrop/redmine_inline_note_attachment_preview_plugin.git  
+  ```
 2. Redmineを再起動
 
 
